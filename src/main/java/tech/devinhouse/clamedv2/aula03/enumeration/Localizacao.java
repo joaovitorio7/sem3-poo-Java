@@ -1,4 +1,4 @@
-package tech.devinhouse.clamedv2.aula03;
+package tech.devinhouse.clamedv2.aula03.enumeration;
 
 public class Localizacao {
 
