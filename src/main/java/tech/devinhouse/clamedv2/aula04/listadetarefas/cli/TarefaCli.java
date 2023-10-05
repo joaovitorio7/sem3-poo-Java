@@ -1,5 +1,6 @@
 package tech.devinhouse.clamedv2.aula04.listadetarefas.cli;
 
+import tech.devinhouse.clamedv2.aula04.listadetarefas.model.ConversorOperacao;
 import tech.devinhouse.clamedv2.aula04.listadetarefas.model.Operacao;
 
 import java.util.Scanner;
@@ -27,8 +28,8 @@ public class TarefaCli {
         System.out.println("Informe a operacao desejada: ");
         Scanner scanner = new Scanner(System.in);
         int op = scanner.nextInt();
-
-        return op;
+        Operacao operacao = ConversorOperacao.converter(op);
+        return operacao;
     }
 
     public void finalizar(){
