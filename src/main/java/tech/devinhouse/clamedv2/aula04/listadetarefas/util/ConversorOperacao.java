@@ -1,4 +1,6 @@
-package tech.devinhouse.clamedv2.aula04.listadetarefas.model;
+package tech.devinhouse.clamedv2.aula04.listadetarefas.util;
+
+import tech.devinhouse.clamedv2.aula04.listadetarefas.model.Operacao;
 
 /**
  * Classe responsável por converter um codigo de operacao informado pelo usuario
