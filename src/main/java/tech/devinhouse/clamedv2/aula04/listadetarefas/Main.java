@@ -11,6 +11,5 @@ public class Main {
         AppListaDeTarefas aplicacao = new AppListaDeTarefas();
         aplicacao.executar();
     }
-
 }
 
